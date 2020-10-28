@@ -1,7 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define fastIO ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 
 int main() {
+	
+	fastIO;
 	
 	int N,M;
 	cin >> N >> M;
@@ -26,7 +29,7 @@ int main() {
 		
 		if (curr.first != dis[curr.second]) continue;
 		
-		for (int i=0;i<adj[curr.second].size();i++) {
+		for (int i=0;i<(int)adj[curr.second].size();i++) {
 			int neighbor = adj[curr.second][i].first;
 			int neighborWeight = adj[curr.second][i].second;
 			
