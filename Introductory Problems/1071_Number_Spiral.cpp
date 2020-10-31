@@ -20,6 +20,6 @@ int main() {
       if (y == a) s += a * 2 - x;
       else s += y;
     }
-    cout << s << endl;
+    cout << s << "\n";
   }
 }
