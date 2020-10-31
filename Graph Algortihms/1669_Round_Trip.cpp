@@ -42,11 +42,11 @@ int main() {
         int k = r.back();
         int i = 0;
         while (r[i] != k) i++;
-        cout << r.size() - i << "\n";
+        cout << r.size() - i   << "\n";
         for (; i < r.size(); i++)
           cout << r[i] + 1 << " \n"[i == r.size() - 1];
-        return 0;
+        return  0;
       }
     }
-  cout << "IMPOSSIBLE\n";
+  cout << "Impossible\n";
 }
