@@ -116,5 +116,5 @@ int main() {
     }
   }
   if (found) cout << "YES\n" << path.size() << endl << path << endl;
-  else cout << "NO\n";
+  else cout << "No\n";
 }
