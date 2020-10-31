@@ -65,7 +65,7 @@ int main()
         cin>>x>>y;
         x--;
         y--;
-        cout<<rmq(st,n,x,y)<<endl;
+        cout<<rmq(st,n,x,y)<<"\n";
     }
 	return 0;
 }

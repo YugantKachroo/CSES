@@ -17,6 +17,6 @@ int main()
             *it=ele;
 
     }
-    cout<<vec.size()<<endl;
+    cout<<vec.size()<<"\n";
 	return 0;
 }
