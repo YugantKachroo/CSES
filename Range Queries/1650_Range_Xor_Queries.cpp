@@ -67,7 +67,7 @@ int main()
         cin>>x>>y;
         x--;
         y--;
-        cout<<getxor(st,n,x,y)<<endl;
+        cout<<getxor(st,n,x,y)<<"\n";
 
     }
 	return 0;
