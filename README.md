@@ -1,3 +1,2 @@
 # CSES
-ALGORITHMS
-This repo comprises of the working code of questions solved on CSES.
+This repo contains the working code of questions solved on CSES.
